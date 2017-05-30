@@ -5,6 +5,14 @@ package com.mshvdvskgmail.qiwi_testing_task.network.model;
  */
 
 public class User {
-    String id;
-    String name;
+    private String id;
+    private String name;
+
+    public String getName(){
+        return name;
+    }
+
+    public String getId(){
+        return id;
+    }
 }
